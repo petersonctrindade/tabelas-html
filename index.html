@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabelas em HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Aprendendo Tabelas em HTML</h1>
+    </header>
+
+    <main>
+        <table>
+            <caption>
+                <strong>Preços de Produtos Eletrônicos</strong>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>R$ 3.500,00</td>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>R$ 1.200,00</td>
+                </tr>
+                <tr>
+                    <td>Parafusadeira</td>
+                    <td>R$ 9,99</td>
+                </tr>
+                <tr>
+                    <td>Roteador</td>
+                    <td>R$ 2.789,69</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>R$ 7.499,68</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table>
+            <caption>
+                <strong>Horário de Aulas</strong>
+            </caption>
+    
+            <thead>
+                <tr>
+                    <td colspan="5">
+                        Horário de Aulas - Turma 2024
+                    </td>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>Horário</td>
+                    <td>Segunda-feira</td>
+                    <td>Terça-feira</td>
+                    <td>Quarta-feira</td>
+                    <td>Quinta-feira</td>
+                </tr>
+                <tr>
+                    <td>08:00 - 09:00</td>
+                    <td>Matemática</td>
+                    <td>História</td>
+                    <td rowspan="2">
+                        Educação física
+                    </td>
+                    <td>Química</td>
+                </tr>
+                <tr>
+                    <td>09:00 - 10:00</td>
+                    <td colspan="2">
+                        Português (2 horas)
+                    </td>
+                    <td>Biologia</td>
+                </tr>
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>Geografia</td>
+                    <td>Física</td>
+                    <td>Matemática</td>
+                    <td>História</td>
+                </tr>
+                <tr>
+                    <td>11:00 - 12:00</td>
+                    <td colspan="4">
+                        Projeto Interdisciplinar (todas as disciplinas)
+                    </td>
+                </tr>
+            </tbody>
+    
+            <tbody>
+    
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <a href="https://denecir.blogspot.com/2010/09/mesclar-celulas-tabela-html.html">Fonte</a>
+    </footer>
+</body>
+</html>
